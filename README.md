@@ -36,3 +36,7 @@ Click the "Display The Closest Defibrillator" button to find the closest defibri
 Click the "Display The Closest Defibrillator with Radius" button to find defibrillators within the specified search radius.
 
 The program will generate an interactive map in the file map.html, displaying defibrillator locations.
+-In the code, you may see file paths specified for data files. If you want to use your own data file, update the file path accordingly. If the data file is in the same directory as the code, you can use a relative path:
+excel_file_path = 'defibrillator_data.xlsx'
+If the data file is in a different directory, provide the full path:
+excel_file_path = '/path/to/your/data/defibrillator_data.xlsx'
